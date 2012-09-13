@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <%= link_to("Home", { :action => "index" }) %> |
+        <%= link_to("About Us", { :action => "about" }) %> |
+        <%= link_to("Help", { :action => "help" }) %>
+        <%= yield %>
+    </body>
+</html>
